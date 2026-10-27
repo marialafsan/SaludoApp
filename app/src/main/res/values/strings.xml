@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SaludoApp</string>
+    <string name="titulo">Aplicación de saludo</string>
+    <string name="boton_saludar">Saludar</string>
+    <string name="saludo">Hola, %1$s !!</string> <!-- %1$s es el primer valor que le pasamos a Android -->
+    <string name="texto_cuerpo">Introduce tu nombre y pulsa el botón</string>
+    <string name="error_vacio">¡Debes introducir tu nombre!</string>
+    <string name="placeholder_nombre">Tu nombre</string>
+
+</resources>
+
+    <!--
+        In XML you refer to titulo as @string/titulo;
+        in Kotlin or Java as R.string.titulo.
+        Same entry, two ways to point at it!
+    -->
