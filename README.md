@@ -8,13 +8,15 @@ The user types their name and taps a button and a pop-up will show a personalize
 
 >Kotlin project developed in Android Studio to practice:
 >
->- First steps with **Kotlin** and **Android Studio**
->- Designing a screen with **XML layouts** and **ConstraintLayout**
->- Use of UI components: **TextView**, **EditText** and **Button**
->- Managing text through **string resources** (`strings.xml`), including formatted strings with parameters
->- Customizing the look with **custom fonts** (Nunito, Open Sans, Playfair Display) and **color resources**
->- **Version control** using Git and GitHub
+> - First steps with **Kotlin** and **Android Studio**
+> - Designing a screen with **XML layouts** and **ConstraintLayout**, using a **vertical chain** to centre the components
+> - Use of UI components: **TextView**, **EditText** and **Button**
+> - Linking the layout to the code with **findViewById** and **lateinit** properties
+> - Handling user interaction with a **click listener** and showing feedback with a **Toast**
+> - Managing texts and colors through **resources** (`strings.xml`, `colors.xml`) and customizing the look with the **Nunito** font
+> - **Version control** using Git and GitHub
 
 ## Layout
 
 ![layout](images/main-screen.png)
+
