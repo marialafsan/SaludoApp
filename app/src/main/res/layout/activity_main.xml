@@ -24,8 +24,8 @@
 
     <EditText
         android:id="@+id/etNombre"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/teal"
-        android:fontFamily="@font/nunito"
+        android:fontFamily="@font/nunito_bold"
         android:text="@string/boton_saludar"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/txtResultado"
